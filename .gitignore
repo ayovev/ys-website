@@ -1,0 +1,14 @@
+# javascript dependencies
+node_modules/
+
+# sensitive (private) values
+.env
+
+# editor-specific settings
+.vscode
+
+# platform-specific files
+.DS_Store
+
+# production resources
+build/

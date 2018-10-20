@@ -1,0 +1,13 @@
+version: "3"
+services:
+  app-client:
+    container_name: app-client
+    build:
+      context: ./app-client
+      dockerfile: Dockerfile
+    volumes:
+      - ./app-client:/app-client
+      - /app-client/node_modules
+    ports:
+      - 3000:3000
+    restart: on-failure

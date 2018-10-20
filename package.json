@@ -1,0 +1,26 @@
+{
+  "name": "ys-website",
+  "version": "0.1.0",
+  "description": "Website for YS Investments LLC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayovev/ys-website.git",
+    "homepage": "https://github.com/ayovev/ys-website",
+    "bugs": "https://github.com/ayovev/ys-website/issues"
+  },
+  "private": true,
+  "contributors": [
+    "Nathanael Fuller",
+    "James Schnebly",
+    "Alex Yovev"
+  ],
+  "scripts": {
+    "install": "cd app-client && npm install",
+    "start": "cd app-client && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "~10.11",
+    "npm": "~6.4"
+  }
+}
